@@ -2,12 +2,15 @@ package game
 
 import (
 	"bytes"
-	"io/ioutil"
+	"embed"
 	"log"
 
 	"github.com/hajimehoshi/ebiten/v2/audio"
 	"github.com/hajimehoshi/ebiten/v2/audio/mp3"
 )
+
+//go:embed static/sounds/*.mp3
+var staticFiles embed.FS
 
 type AudioContextWrapper struct {
 	ctx *audio.Context
@@ -42,7 +45,8 @@ type SoundPlayer struct {
 }
 
 func loadSound(ctx *audio.Context, path string) (*SoundPlayer, error) {
-	data, err := ioutil.ReadFile(path)
+	// Читаем файл из встраиваемой файловой системы
+	data, err := staticFiles.ReadFile(path)
 	if err != nil {
 		return nil, err
 	}
