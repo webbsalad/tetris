@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 
 	"github.com/webbsalad/tetris/game"
@@ -11,8 +10,6 @@ import (
 
 func main() {
 	g := game.New()
-
-	fmt.Println(g)
 
 	ebiten.SetWindowSize(320, 640)
 	ebiten.SetWindowTitle("Tetris")
