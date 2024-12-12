@@ -1,3 +1,6 @@
+// Package main is the entry point for the Tetris game application.
+// It initializes the game window, sets up the game loop using the Ebiten game library,
+// and handles the execution of the game.
 package main
 
 import (
