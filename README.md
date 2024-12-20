@@ -1,9 +1,10 @@
-[![Go Reference](https://pkg.go.dev/badge/github.com/natemcintosh/gocombinatorics.svg)](https://pkg.go.dev/github.com/webbsalad/tetris)
+[![Go Reference](https://pkg.go.dev/badge/github.com/natemcintosh/gocombinatorics.svg)](https://pkg.go.dev/github.com/webbsalad/tetris) [overleaf](https://www.overleaf.com/project/676591221c704173a187d1de)
 
 
 # Tetris Game
 
 Это классическая игра Tetris, написанная на Go с использованием библиотеки [Ebiten](https://github.com/hajimehoshi/ebiten). Игрок управляет падающими тетромино, очищает линии на поле и набирает очки. Игра поддерживает выбор уровня сложности, управление тетромино и отслеживание счета.
+
 
   
 
