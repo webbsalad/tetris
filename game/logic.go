@@ -1,3 +1,5 @@
+// Package game provides functionality for managing the game process,
+// including sound handling, game state management, and player interactions.
 package game
 
 // updateSpeed adjusts the speed of the game based on the current level.

@@ -1,3 +1,5 @@
+// Package game provides functionality for managing the game process,
+// including sound handling, game state management, and player interactions.
 package game
 
 // Init initializes the game with the specified difficulty level.
