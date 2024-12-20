@@ -1,4 +1,4 @@
-[![Go Reference](https://pkg.go.dev/badge/github.com/natemcintosh/gocombinatorics.svg)](https://pkg.go.dev/github.com/webbsalad/tetris) [overleaf](https://www.overleaf.com/project/676591221c704173a187d1de)
+[![Go Reference](https://pkg.go.dev/badge/github.com/natemcintosh/gocombinatorics.svg)](https://pkg.go.dev/github.com/webbsalad/tetris) [Пользовательская документация Latex](https://www.overleaf.com/project/676591221c704173a187d1de)
 
 
 # Tetris Game
